@@ -1,0 +1,42 @@
+
+:root {
+    font-family: "Roboto Condensed", "Roboto", sans-serif;
+    font-size: 16px;
+    background: #111111;
+    color: rgb(255, 250, 255);
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    color: white;
+}
+
+.container {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 660px) {
+        width: 75vw;
+    }
+}
+
+body > header {
+    font-size: 18px;
+    background: #212121;
+    padding: 32px 0;
+
+    h1 {
+        font-family: "Roboto Mono", monospace;
+    }
+}
+
+body > footer {
+    margin: 1em 0;
+    font-size: 14px;
+}
+
+@import "tinakori/navbar.scss";
